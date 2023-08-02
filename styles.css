@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8c291;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #e74c3c;
+  }
+  
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .burger {
+      display: block;
+    }
+  
+    .nav-active {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      background-color: #f8c291;
+      top: 70px;
+      right: 0;
+      width: 100%;
+    }
+  
+    .nav-active li {
+      margin: 10px 0;
+    }
+  
+    .nav-active li a {
+      color: #333;
+    }
+  
+    .nav-active li a:hover {
+      color: #e74c3c;
+    }
+  
+    .toggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .toggle .line2 {
+      opacity: 0;
+    }
+  
+    .toggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Basic styles for the elements */
+  
+  .a,
+  .b,
+  .e,
+  .f,
+  .g,
+  .h,
+  .i,
+  .k,
+  .p,
+  .q,
+  .r,
+  .s,
+  .two,
+  .af,
+  .ag,
+  .ah,
+  .ai,
+  .ak,
+  .al,
+  .am,
+  .ao,
+  .ap,
+  .aq,
+  .at,
+  .ba,
+  .bb,
+  .bd,
+  .bc,
+  .bf,
+  .bh,
+  .bi,
+  .bk,
+  .bl,
+  .bn,
+  .bo,
+  .bq,
+  .br,
+  .bt,
+  .bu,
+  .ca,
+  .cb,
+  .cc,
+  .cd,
+  .ce,
+  .cf,
+  .cg,
+  .ch,
+  .ci,
+  .ck,
+  .cl,
+  .cm,
+  .co,
+  .cp,
+  .cq,
+  .da,
+  .db,
+  .dc,
+  .dd,
+  .ff,
+  .gg,
+  .hh,
+  .ii,
+  .jj,
+  .fa,
+  .we,
+  .fb {
+    box-sizing: border-box;
+  }
+  
+  .a {
+    text-align: center;
+  }
+  
+  .e h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .f p,
+  .q p,
+  .r p,
+  .i p,
+  .ba p,
+  .ff p,
+  .hh p {
+    line-height: 1.5;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .k {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .n {
+      width: 100%;
+    }
+  
+    .two {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .af {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .one {
+      flex-wrap: wrap;
+    }
+  
+    .tree {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .four {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .db {
+      text-align: center;
+    }
+  
+    .dd, .gg, .ii {
+      text-align: center;
+    }
+  
+    .fa {
+      text-align: center;
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Basic styles for the elements */
+  .dc,
+  .ff,
+  .gg,
+  .hh,
+  .ii,
+  .jj,
+  .we,
+  .fb {
+    box-sizing: border-box;
+  }
+  
+  .dc {
+    text-align: center;
+  }
+  
+  .ff p,
+  .hh p {
+    line-height: 1.5;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .dc {
+      font-size: 20px;
+    }
+  
+    .ff p, .gg p, .hh p, .ii p, .fa p {
+      font-size: 14px;
+    }
+  
+    .fa {
+      text-align: center;
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  
+  
+  
